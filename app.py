@@ -74,5 +74,8 @@ if img_file_buffer is not None:
     # 예측 결과에서 신뢰도를 꺼내 옵니다  
     confidence_score = prediction[0][index]
 
-    st.write('Class:', class_name[2:], end="")
-    st.write('Confidence score:', confidence_score)
+    # 예측 결과에서 신뢰도를 백분율로 변환
+    confidence_percentage = confidence_score * 100
+
+    # 출력 메시지 수정
+    st.write(f'당신은 서관우의 이상형에 {confidence_percentage:.2f}% 부합합니다 ^^')
