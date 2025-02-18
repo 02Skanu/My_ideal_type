@@ -5,7 +5,7 @@ from PIL import Image, ImageOps #Install pillow instead of PIL
 import numpy as np
 import streamlit as st
 
-st.title("당신도 서관우의 이상형이 될 수 있다.")
+st.title("당신도 관우의 이상형이 될 수 있다.")
 
 # Disable scientific notation for clarity
 np.set_printoptions(suppress=True)
