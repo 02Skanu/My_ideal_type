@@ -79,3 +79,12 @@ if img_file_buffer is not None:
 
     # 출력 메시지 수정
     st.write(f'당신은 서관우의 이상형에 {confidence_percentage:.2f}% 부합합니다 ^^')
+
+    if confidence_percentage > 80:
+        st.write('제 이상형과 가깝네요?')
+    elif confidence_percentage <=80 and confidence_percentage>60:
+        st.write('살짝 아쉬운데... 괜찮아요')
+    elif confidence_percentage <=60 and confidence_percentage>40:
+        st.write('어허...노력해봐요 우리')
+    else:
+        st.write('에헤이 나가리네')
