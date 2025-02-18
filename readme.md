@@ -20,7 +20,7 @@ Tensorflow의 고수준 API인 Keras를 사용하였습니다.
 - learning rate : 0.007
 
 # - Teachable_Machine
-![pic/test.png]
+![테스트 사진](pic/test.png)
 
 # 데이터셋
 
